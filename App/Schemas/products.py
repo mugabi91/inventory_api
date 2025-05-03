@@ -14,3 +14,10 @@ class ProductResponseSchema(BaseModel):
     Product_price: float
     Product_stock: int
     Product_description: Optional[str] = None 
+    
+    class Config:
+        from_attributes=True
+
+
+
+
