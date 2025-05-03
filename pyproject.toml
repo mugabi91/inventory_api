@@ -1,7 +1,7 @@
 [project]
 name = "inventory-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple, FastAPI-based Inventory and Sales Tracking API for small retail shops. Features user authentication, product stock management, sales recording, and basic reporting endpoints. Built with FastAPI, SQLModel, and JWT auth."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
